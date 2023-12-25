@@ -10,9 +10,9 @@ int main() {
 	tm* timeinfo = localtime(&seconds);
 
 	char buffer[80];
-	strftime(buffer, sizeof(buffer), "%A, %d-%m-%Y. Порядковый номер дня в году: %j", timeinfo);
+	strftime(buffer, sizeof(buffer), "%A, %d-%m-%Y. РџРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ РґРЅСЏ РІ РіРѕРґСѓ: %j", timeinfo);
 
-	std::cout << "Сегодняшняя дата: " << buffer << std::endl;
+	std::cout << "РЎРµРіРѕРґРЅСЏС€РЅСЏСЏ РґР°С‚Р°: " << buffer << std::endl;
 
 	std::cin.get();
 	return 0;
