@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "Russian");
+	system("mode con cols=35 lines=25");
 
 	int n;
 	cin >> n;
