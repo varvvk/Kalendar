@@ -2,8 +2,7 @@
 #include <ctime>
 #include <iomanip>
 #include <thread>
-#include <chrono> //áèáëèîòåêà äëÿ ðàáîòû ñî âðåìåíåì 
-using namespace std;
+#include <chrono>
 
 int case2() {
 	tm newYearDate = {};
