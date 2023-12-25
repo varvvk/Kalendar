@@ -11,6 +11,7 @@ int main()
 	switch (n)
 	{
 	case 2:
+		system("cls");
 		case2();
 		break;
 	default:
