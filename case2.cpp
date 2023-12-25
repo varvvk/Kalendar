@@ -5,6 +5,9 @@
 #include <chrono>
 
 int case2() {
+	using namespace std;
+	
+	system("color F4");
 	tm newYearDate = {};
 	newYearDate.tm_year = 2024 - 1900;
 	newYearDate.tm_mon = 0;
@@ -23,7 +26,8 @@ int case2() {
 	int minutesUntil = (timeDifference.count() % 3600) / 60;
 	int secondsUntil = timeDifference.count() % 60;
 
-	cout << setw(203) << setfill(' ') << "ДО НОВОГО ГОДА" << endl;
+	furTree();
+	cout << "\n" << setw(60) << setfill(' ') << "ДО НОВОГО ГОДА" << endl;
 	while (daysUntil > 0 || hoursUntil > 0 || minutesUntil > 0 || secondsUntil > 0) {
 		cout << setw(203) << setfill(' ');
 		cout << "\r" << daysUntil << " дней " << hoursUntil << " часов " << minutesUntil << " минут " << secondsUntil << " секунд " << flush;
