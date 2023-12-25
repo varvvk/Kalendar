@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include "case2.h"
+#include "case1.h"
 using namespace std;
 
 int main()
@@ -11,6 +12,10 @@ int main()
 	cin >> n;
 	switch (n)
 	{
+	case 1: 
+		system("cls");
+		case1();
+		break;
 	case 2:
 		system("cls");
 		case2();
