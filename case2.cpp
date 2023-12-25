@@ -2,7 +2,7 @@
 #include <ctime>
 #include <iomanip>
 #include <thread>
-#include <chrono> //библиотека для работы со временем 
+#include <chrono> //ГЎГЁГЎГ«ГЁГ®ГІГҐГЄГ  Г¤Г«Гї Г°Г ГЎГ®ГІГ» Г±Г® ГўГ°ГҐГ¬ГҐГ­ГҐГ¬ 
 using namespace std;
 
 int case2() {
@@ -24,10 +24,10 @@ int case2() {
 	int minutesUntil = (timeDifference.count() % 3600) / 60;
 	int secondsUntil = timeDifference.count() % 60;
 
-	cout << setw(203) << setfill(' ') << "ДО НОВОГО ГОДА" << endl;
+	cout << setw(203) << setfill(' ') << "Р”Рћ РќРћР’РћР“Рћ Р“РћР”Рђ" << endl;
 	while (daysUntil > 0 || hoursUntil > 0 || minutesUntil > 0 || secondsUntil > 0) {
 		cout << setw(203) << setfill(' ');
-		cout << "\r" << daysUntil << " дней " << hoursUntil << " часов " << minutesUntil << " минут " << secondsUntil << " секунд " << flush;
+		cout << "\r" << daysUntil << " РґРЅРµР№ " << hoursUntil << " С‡Р°СЃРѕРІ " << minutesUntil << " РјРёРЅСѓС‚ " << secondsUntil << " СЃРµРєСѓРЅРґ " << flush;
 		this_thread::sleep_for(chrono::seconds(1));
 
 		nowTime = chrono::system_clock::now();
@@ -37,6 +37,6 @@ int case2() {
 		minutesUntil = (timeDifference.count() % 3600) / 60;
 		secondsUntil = timeDifference.count() % 60;
 	}
-	cout << "С Новым Годом!!\n";
+	cout << "РЎ РќРћР’Р«Рњ Р“РћР”РћРњ!\n";
 	return 0;
 }
