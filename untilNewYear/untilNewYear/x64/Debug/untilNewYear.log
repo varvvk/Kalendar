@@ -1,0 +1,4 @@
+﻿  furTree.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iomanip(40,23): error C2338: static_assert failed: 'wrong character type for setfill'
+D:\Study\ВРПО\untilNewYear\untilNewYear\furTree.cpp(10,18): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::_Fillobj<int> &)"
+D:\Study\ВРПО\untilNewYear\untilNewYear\furTree.cpp(10,37): message : см. первую ссылку на "std::operator <<" в "furTree"
